@@ -1,4 +1,3 @@
-
 # Node.js Backend for Covid Data Visualization
 
 This Node.js backend serves as the API server for the Covid Data Visualization React application. The backend provides endpoints to fetch mortality data for different countries and supports pagination.
@@ -8,6 +7,7 @@ This Node.js backend serves as the API server for the Covid Data Visualization R
 - [Installation](#installation)
 - [Getting Started](#getting-started)
 - [Endpoints](#endpoints)
+- [Database](#database)
 - [Error Handling](#error-handling)
 - [Contributing](#contributing)
 - [License](#license)
@@ -80,6 +80,18 @@ Response:
   "totalPages": 5
 }
 ```
+
+## Database
+
+The backend is powered by a MongoDB database that contains the following files:
+
+- **covidData.bson**: BSON file containing Covid data for different countries.
+- **covidData.metadata.json**: Metadata file associated with the `covidData.bson` collection.
+
+- **mortalityData.bson**: BSON file containing mortality data for different countries.
+- **mortalityData.metadata.json**: Metadata file associated with the `mortalityData.bson` collection.
+
+These files store the relevant data used by the API to provide the mortality information to the frontend application.
 
 ## Error Handling
 
