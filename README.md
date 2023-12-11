@@ -104,19 +104,10 @@ The API server handles errors gracefully and responds with appropriate HTTP stat
 }
 ```
 
-## Contributing
-
-Contributions to this project are welcome. If you find any issues or want to add new features, feel free to open an issue or submit a pull request.
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name` or `git checkout -b bugfix/your-bug-fix`.
-3. Make your changes and commit them with a descriptive commit message.
-4. Push your changes to your branch: `git push origin feature/your-feature-name` or `git push origin bugfix/your-bug-fix`.
-5. Create a pull request targeting the `main` branch of this repository.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+ [MIT License](LICENSE).
 
 ---
 
