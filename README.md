@@ -109,8 +109,4 @@ The API server handles errors gracefully and responds with appropriate HTTP stat
 
  [MIT License](LICENSE).
 
----
 
-Thank you for using our Covid Data Visualization application! If you have any questions or need further assistance, please don't hesitate to reach out.
-
-Happy coding!
